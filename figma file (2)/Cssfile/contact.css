@@ -1,0 +1,510 @@
+
+body {
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 50%;
+
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-logo img {
+    width: 50%;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-top: 10px;
+        text-align: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        z-index: 10;
+        padding: 10px 0;
+    }
+
+    .setlogoimgs {
+        width: 20%;
+    }
+
+    .navbar-logo img {
+        width: 50%;
+    }
+
+    .navbar.active {
+        display: flex;
+        margin: 0;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .hamburger div {
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+    }
+
+    .setnavbaractive {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-container {
+        flex-direction: row;
+
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .navbar-logo {
+        display: block;
+    }
+}
+
+
+.bacgrounding {
+    background-image: url(../Allimage/intership\ photo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    background-color: rgba(176, 229, 236, 1);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+.digin {
+    background-image: url(../Allimage/Group\ 1190.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Poppins-Bold", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 60px;
+}
+
+.textcolor {
+    color: rgba(26, 63, 90, 1);
+}
+
+
+.touch {
+    margin-top: 5%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 26px;
+    width: 40%;
+    height: 50px;
+}
+
+.img {
+   
+    position: relative;
+   
+    padding: 2%;
+}
+
+.men {
+    display: flex;   
+}
+
+.email {
+    color: rgba(26, 63, 90, 0.5);
+    font-family: "Poppins-Bold", sans-serif;
+}
+
+.main {
+   padding: 1%;
+}
+
+.com {
+    color: rgb(26, 63, 90, 0.5);
+    font-family: "Poppins-Bold", sans-serif;
+}
+
+.rectangle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.familyimg {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 5%;
+}
+
+.our {
+    color: #ffffff;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 50px;
+
+    margin-top: 0%;
+}
+
+.form {
+    
+    background-color: #ffffff;
+    border-radius: 26px;
+}
+
+.sent {
+    padding: 5%;
+    color: #1a3f5a;
+    text-align: left;
+    margin-top: 10%;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 20px;
+
+}
+
+.img1 {
+    width: 35px;
+    padding: 2%;
+}
+
+.sty {
+    padding: 5%;
+    border-radius: 20px;
+    width: 250px;
+    border-style: solid;
+    color: rgb(26, 63, 90, 0.5);
+
+}
+
+.form1 {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    display: flex;
+    padding: 5%;
+}
+
+.SEND {
+    border: none;
+    background: none;
+    background-color: #01aac1;
+    border-radius: 20px;
+    width: 150px;
+    height: 70px;
+
+}
+
+.Suggestion {
+    background-image: url(../Allimage/Group\ 1190.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Poppins-Bold", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+}
+
+.gift {
+    height: 596px;
+    object-fit: cover;
+}
+
+.group-2 {
+    text-align: center;
+    padding: 5%;
+}
+
+.group-3 {
+    border: none;
+    border-radius: 20px;
+    height: 199px;
+    width: 300px;
+
+}
+
+
+.lastperfectclass {
+    background-color: rgba(176, 229, 236, 1);
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.touchclass {
+    background-color: rgba(26, 63, 90, 1);
+    color: white;
+    border-radius: 50px;
+    width: 80%;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+
+.locasenclass {
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    line-height: 0%;
+}
+.displaybolck{
+    line-height: 0%;
+}
+
+.linkscoloechanges {
+    text-decoration: none;
+    color: rgba(26, 63, 90, 1);
+}
+
+.displaybolck {
+    display: flex;
+    align-items: center;
+    align-items: center;
+
+}
+
+.textcolordark {
+    color: rgba(26, 63, 90, 1);
+}
+
+
+
+@media (max-width: 768px) {
+    .textcolordark{
+        font-size: 10px;
+    }
+    .touchclass{
+        width: 100%;
+        font-size: 12px;
+    }
+    .displaybolck{
+        line-height: 0%;
+    }
+   
+    .navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    .com{
+        font-size: 10px;
+    }
+    .line{
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .hamburger div {
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+    }
+
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .rectangle {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .courses {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .touch {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .familyimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .sty {
+        width: 100%;
+    }
+
+    .form {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+   
+
+    .navbar-link {
+        font-size: 16px;
+    }
+
+    .bacgrounding {
+        background-size: cover;
+        height: 300px;
+    }
+
+    .lastperfectclass {
+        flex-direction: column;
+        padding: 5%;
+        gap: 15px;
+    }
+
+    .our {
+        font-size: 24px;
+    }
+
+    .suggestion {
+        font-size: 18px;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .group-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gift {
+        width: 100%;
+        height: auto;
+    }
+
+    .lioe {
+        font-size: 12px;
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@media (min-width: 768px) {
+    .navbar-container {
+        flex-direction: row;
+
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .navbar-logo {
+        display: block;
+    }
+}

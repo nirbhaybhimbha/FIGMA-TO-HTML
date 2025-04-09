@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url(../Allimage/intership\ photo.svg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+
+}
+
+/* Container */
+.container {
+  color: white;
+}
+
+/* Form Box */
+.form-box {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.borderbtn {
+  border: 1px solid #00bcd4;
+  width: 50%;
+  color: #00bcd4;
+  border-radius: 5px;
+
+}
+
+.tabs button {
+  width: 50%;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+
+}
+
+.active {
+  color: #00bcd4;
+  border-radius: 5px;
+  background: transparent;
+  text-align: center;
+}
+
+/* Form Inputs */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #00bcd4;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Social Login */
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.social-login button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google {
+  background: transparent;
+  color: white;
+}
+
+.facebook {
+  background: transparent;
+  color: white;
+}
+
+/* Next Button */
+.next-btn {
+  background: #00bcd4;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-bg-color {
+  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+/* Login Link */
+.login-link {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .join-now {
+    font-size: 12px;
+  }
+
+  .form-bg-color {
+    width: 89%;
+  }
+.active{
+  text-align: center;
+}
+
+}
+
