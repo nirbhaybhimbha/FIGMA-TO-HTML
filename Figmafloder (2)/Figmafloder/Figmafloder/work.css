@@ -1,0 +1,538 @@
+.bg-color-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.line-1 {
+    border: 2px solid rgba(253, 186, 14, 1);
+}
+
+.Works {
+    color: white;
+
+}
+
+.have {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.air {
+    display: flex;
+    justify-content: center;
+}
+
+.line-2 {
+    border: 2px solid rgb(238, 108, 77, 1);
+    width: 100px;
+
+}
+
+.companies {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 4%;
+}
+
+.work {
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.air {
+    display: flex;
+    justify-content: center;
+}
+
+.have {
+    margin-bottom: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.designer {
+    background-color: white;
+    padding: 2%;
+}
+
+.bgcolor-3 {
+    background-color: rgba(249, 249, 249);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;
+}
+
+.fusce {
+    background-color: rgba(47, 55, 70, 1);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.png {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.setnavbaractive {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    border: none;
+    background: none;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-color {
+    background-color: rgb(112, 111, 111);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.way {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Analyze {
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    margin-top: 5%;
+}
+
+.formdata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.formcolor {
+    background-color: white;
+    padding: 2%;
+}
+
+.Request {
+    background-color: rgb(249, 249, 249);
+    padding: 5%;
+}
+
+.make {
+    display: flex;
+    gap: 20px;
+}
+
+.second {
+    background-color: rgb(249, 249, 249);
+    border: none;
+    height: 30px;
+    width: 200px;
+}
+
+.pagecolor {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 5%;
+}
+
+.line-1 {
+    border: 2px solid rgba(253, 186, 14, 1);
+}
+
+.Works {
+    color: white;
+
+}
+
+.have {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.air {
+    display: flex;
+    justify-content: center;
+}
+
+.line-2 {
+    border: 2px solid rgb(238, 108, 77, 1);
+    width: 100px;
+
+}
+
+.companies {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 4%;
+}
+
+.bgcolor-2 {
+    background-color: rgb(249, 249, 249);
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.Over {
+    border: 2px solid rgba(253, 186, 14, 1);
+    width: 20%;
+}
+
+.solving {
+    padding: 5%;
+}
+
+.solvingg {
+    border: 1px solid black;
+    padding: 2%;
+    width: 30%;
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.malipal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.circle-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+svg {
+    transform: rotate(-90deg);
+}
+
+.progress-circle {
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+}
+
+.bg-circle {
+    stroke: lightgray;
+}
+
+.progress-25 {
+    stroke: #007bff;
+    stroke-dasharray: 157;
+    stroke-dashoffset: 250;
+}
+
+.progress-90 {
+    stroke: #007bff;
+    stroke-dasharray: 157;
+    stroke-dashoffset: 16;
+}
+
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rocket {
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.features {
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.inputerenpose {
+    width: 100%;
+    padding: 2%;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Main Container */
+.solvingg {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    /* Prevents being too wide */
+    background-color: rgba(247, 247, 247, 1);
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    /* Soft rounded edges */
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Logo */
+.logo {
+    width: 30px;
+    /* Adjust logo size */
+    height: auto;
+}
+
+/* Link */
+.site-link {
+    text-decoration: none;
+}
+
+/* Container for Before & After */
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Wraps content on smaller screens */
+    margin-top: 20px;
+}
+
+/* Circles */
+.circle-container {
+    position: relative;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+}
+
+/* Rocket Emoji */
+.rocket {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    /* Makes it stack on smaller screens */
+    justify-content: center;
+}
+.navbar-link{
+    font-size: 10px;
+}
+
+/* Feature Item */
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .solvingg {
+        width: 90%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .rocket {
+        margin: 10px 0;
+    }
+
+    .features {
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feature-item {
+        justify-content: center;
+    }
+  
+    .solvingg{
+        padding: 0%;
+    }
+    .have{
+        font-size: 20px;
+    }
+    .site-link{
+        font-size: 10px;
+    }
+
+    .ninja {
+        font-size: 100%;
+    }
+
+    .Analyze {
+        width: 100%;
+    }
+
+    .clients {
+        flex-direction: column;
+        align-items: center;
+    }
+    .fontsing{
+        font-size: 15px;
+    }
+ 
+}
+
+.lightning {
+    color: gold;
+    font-size: 20px
+}
+.fontinline{
+    font-size: 20px;
+}
+
+@media (max-width: 1100px) {
+    .fontinline{
+        font-size: 40px;
+    }
+    .bg-color {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .make {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bg-color-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .companies {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .malipal {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .rocket {
+        margin-top: 50px;
+    }
+
+    .bgcolor-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fusce {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copy {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:300px) {
+    .fontinline{
+        font-size: 10%;
+    }
+    .navbar-link{
+        font-size: 20px;
+    }
+}
